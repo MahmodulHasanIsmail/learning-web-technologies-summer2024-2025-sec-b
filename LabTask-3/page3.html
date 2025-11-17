@@ -6,28 +6,32 @@
     <title>page-1</title>
 </head>
 <body>
-    <form action="page4.html" method="" enctype="" >
+    <form action="page4.html" method="" enctype="" id="form3">
         <fieldset style="width: 100px;">
         <table width="250px">
                 <legend>Gender</legend>
             <tr>
                  <td>
-                    <input type="radio" name="gender" value="" /> Male
-                    <input type="radio" name="gender" value="" /> Female
-                    <input type="radio" name="gender" value="" /> Other
+                    <input type="radio" name="gender" value="" id="m" /> Male
+                    <input type="radio" name="gender" value="" id="f"/> Female
+                    <input type="radio" name="gender" value="" id="o"/> Other
                 </td>
 
+            </tr>
+            <tr>
+                <td><p id="emsg"></p></td>
             </tr>
         </table>
         </fieldset>
         <table>
                 <tr>
-                <td ><input type="submit" name="" value="Submit"></td>
+                <td ><input type="button" name="" value="Submit" id="btn3"></td>
+            </tr>
+            <tr>
+                <td><p id="hmsg"></p></td>
             </tr>
         </table>
-
-
-
+        <script src="form3.js"></script>
     </form>
 </body>
 </html>
